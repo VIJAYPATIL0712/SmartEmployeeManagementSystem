@@ -1,4 +1,4 @@
 package com.project.smartEMS.repository;
 
-public interface UserRepository {
+public interface UserRepository extends JPA{
 }
