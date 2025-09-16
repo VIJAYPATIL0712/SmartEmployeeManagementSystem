@@ -1,4 +1,6 @@
 package com.project.smartEMS.repository;
 
-public interface AttendanceRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AttendanceRepository extends JpaRepository {
 }

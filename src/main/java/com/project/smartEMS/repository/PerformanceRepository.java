@@ -1,4 +1,6 @@
 package com.project.smartEMS.repository;
 
-public interface PerformanceRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PerformanceRepository extends JpaRepository {
 }

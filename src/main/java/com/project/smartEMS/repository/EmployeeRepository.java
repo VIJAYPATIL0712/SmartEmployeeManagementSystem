@@ -1,4 +1,6 @@
 package com.project.smartEMS.repository;
 
-public interface EmployeeRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EmployeeRepository extends JpaRepository {
 }
