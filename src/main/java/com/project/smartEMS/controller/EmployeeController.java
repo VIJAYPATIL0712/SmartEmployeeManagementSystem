@@ -14,9 +14,4 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
-    @GetMapping("/list")
-    public String listEmployees(Model model) {
-        model.addAttribute("employees");
-        return "employees/list";
-    }
 }
