@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/dashboard")
 public class DashboardController {
 
-    @GetMapping("/register")
-    public String showRegisterPage(Model model) {
-        model.addAttribute("user", new com.project.smartEMS.entity.User());
-        return "auth/register"; // templates/auth/register.html
-    }
+//    @GetMapping("/register")
+//    public String showRegisterPage(Model model) {
+//        model.addAttribute("user", new com.project.smartEMS.entity.User());
+//        return "auth/register"; // templates/auth/register.html
+//    }
 
     @GetMapping("/login")
     public String showLoginPage(Model model) {
